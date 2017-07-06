@@ -1,0 +1,278 @@
+body {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.contactBody{
+  /*Contact page's background image*/
+  background: url('../images/lighthouse-2225445_1920.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  background-color: transparent;
+}
+
+video {
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-100%);
+  background-size: cover;
+  transition: 600ms;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.6;
+  color: #000;
+}
+
+hr {
+  max-width: 400px;
+  border-color: #999999;
+}
+
+.brand,
+.address-bar,
+.otherAddress-bar {
+  display: none;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: normal;
+
+}
+.navbar {
+  margin-bottom: 200px;
+  height: 0px;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.brand-before,
+.brand-name {
+  text-transform: capitalize;
+}
+
+.brand-before {
+  margin: 15px 0;
+}
+
+.brand-name {
+  margin: 0;
+  font-size: 4em;
+}
+
+.tagline-divider {
+  margin: -60px auto 3px;
+  max-width: 800px;
+  border-color: blue;
+}
+.tagline1-divider {
+  margin: 41px auto 3px;
+  max-width: 800px;
+  border-color: blue;
+}
+
+.box {
+  margin-bottom: 200px;
+  padding: 30px 15px;
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+}
+
+.dropdown-menu a{
+  color: black;
+}
+
+#all-sectors,
+#all-grids,
+#all-cameras,
+#all-languages,
+#all-interests{
+  margin-left: 100px;
+}
+
+
+.intro-text {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+footer {
+  background: #fff;
+  height: auto;
+  width: auto;
+  background: rgba(255,255,255,0.9);
+  bottom: 0;
+}
+.footer1{
+  bottom: 0;
+  margin-top: 315px;
+}
+
+footer p {
+  margin: 0 auto;
+}
+
+@media screen and (min-width:768px) {
+  .brand {
+    display: inherit;
+    margin: 0;
+    padding: 30px 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+  }
+  .top-divider {
+    margin-top: 0;
+  }
+  .img-left {
+    float: left;
+    margin-right: 25px;
+  }
+  .address-bar {
+    display: inherit;
+    margin: 0;
+    padding: 0 0 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+  }
+  .email-bar{
+    display: inherit;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+
+  }
+  .navbar {
+    border-radius: 0;
+  }
+  .navbar-header {
+    display: none;
+  }
+  .navbar {
+    min-height: 0px;
+  }
+  .navbar-default {
+    border: none;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+  }
+  .nav>li>a {
+    padding: 35px;
+  }
+  .navbar-nav>li>a {
+    line-height: normal;
+  }
+  .navbar-nav {
+    display: table;
+    float: none;
+    margin: 0 auto;
+    table-layout: fixed;
+    font-size: 1.25em;
+  }
+}
+.white-text{
+  color: white;
+}
+.projectTitle{
+  color: white;
+}
+
+.contact-bg {
+  padding-top: 60px;
+  padding-bottom: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: dimgrey;
+  height: 300px;
+  width: 550px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.contact-box {
+  width: 80%;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.center-block{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tutton{
+  margin-left: 600px;
+}
+
+.modal{
+  margin-top: 30px;
+}
+
+.linkedin{
+  width: 80px;
+  height: auto;
+}
+
+.github{
+  width: 80px;
+  height: auto;
+}
+
+@media screen and (min-width:1200px) {
+  .box:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

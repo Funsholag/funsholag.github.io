@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Olu's Portfolio</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/portfolio.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+    <video poster="videos/624066568.mp4" id="videos/624066568.mp4" preload="auto" playsinline autoplay muted loop>
+      <source src="videos/624066568.mp4" type="video/mp4">
+    </video>
+    <div class="brand">Olufunsho Olagundoye</div>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="index.html">Olufunsho Olagundoye</a> -->
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="box">
+        <div class="col-lg-12">
+          <hr>
+          <h2 class="intro-text text-center">About Me</h2>
+          <hr>
+          <div class="btn-group" id="all-sectors">
+            <button class="btn btn-larger btn-primary dropdown-toggle" data-toggle="dropdown" >What I Do
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="camera-filter" data-filter-type="all">Full Stack Developer</a></li>
+              <li><a class="camera-filter" data-filter-type="Property">Property &amp Casualty Insurance Broker</a></li>
+              <li><a class="camera-filter" data-filter-type="World">World Traveler</a></li>
+              <li><a class="camera-filter" data-filter-type="Language">Language Enthusiast</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group" id="all-grids">
+            <button class="btn btn-larger btn-secondary dropdown-toggle" data-toggle="dropdown">Front End Skills
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="camera-filter" data-filter-type="all">JavaScript</a></li>
+              <li><a class="camera-filter" data-filter-type="sass">SASS</a></li>
+              <li><a class="camera-filter" data-filter-type="jquery">JQuery</a></li>
+              <li><a class="camera-filter" data-filter-type="bootstrap">BootStrap</a></li>
+              <li><a class="camera-filter" data-filter-type="materialize">Materialize</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group" id="all-cameras">
+            <button class="btn btn-larger btn-danger dropdown-toggle" data-toggle="dropdown">Back End Skills
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="camera-filter" data-filter-type="all">Ruby/Ruby on Rails</a></li>
+              <li><a class="camera-filter" data-filter-type="sinatra">Sinatra</a></li>
+              <li><a class="camera-filter" data-filter-type="python">Python</a></li>
+              <li><a class="camera-filter" data-filter-type="sqlite">SQLite3</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group" id="all-languages">
+            <button class="btn btn-larger btn-success dropdown-toggle" data-toggle="dropdown">Languages
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="camera-filter" data-filter-type="all">French</a></li>
+              <li><a class="camera-filter" data-filter-type="sinatra">Yoruba</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group" id="all-interests">
+            <button class="btn btn-larger btn-warning dropdown-toggle" data-toggle="dropdown">Interests
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="camera-filter" data-filter-type="all">Alto &amp Tenor Saxophone</a></li>
+              <li><a class="camera-filter" data-filter-type="sass">Piano</a></li>
+              <li><a class="camera-filter" data-filter-type="jquery">Swimming</a></li>
+              <li><a class="camera-filter" data-filter-type="bootstrap">Running</a></li>
+              <li><a class="camera-filter" data-filter-type="materialize">Basketball</a></li>
+              <li><a class="camera-filter" data-filter-type="materialize">Golf</a></li>
+              <li><a class="camera-filter" data-filter-type="materialize">Tennis</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p>Copyright &copy; Olufunsho Olagundoye 2017</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.2.1.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    $('.dropdown-toggle').dropdown()
+    </script>
+  </body>
+</html>
