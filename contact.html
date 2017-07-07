@@ -36,7 +36,7 @@
         </div>
       </div>
     </nav>
-    <button type="button" class="btn btn-primary tutton" data-toggle="modal" data-target=".bs-example-modal-lg">Contact Info</button>
+    <button type="button" class="btn btn-primary dropdown tutton" data-toggle="modal" data-target=".bs-example-modal-lg">Click Me</button>
     <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
       <div class="modal-dialog modal-lg" role="document">
         <div class = "contact-bg">
@@ -70,8 +70,17 @@
     </footer>
     <!-- jQuery -->
     <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    // Allows button to be dragged
+    $(document).ready(function() {
+      $( ".dropdown" ).draggable({
+        cancel: false,
+      });
+    });
+    </script>
 
   </body>
 </html>

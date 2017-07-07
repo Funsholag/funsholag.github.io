@@ -1,6 +1,8 @@
+
 body {
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 
 .contactBody{
   /*Contact page's background image*/
@@ -73,10 +75,16 @@ hr {
 .navbar {
   margin-bottom: 200px;
   height: 0px;
+
 }
 
 .navbar a {
   color: white !important;
+  display: flex;
+}
+.navbar a:hover {
+  color: blue !important;
+  display: flex;
 }
 
 .brand-before,
@@ -120,7 +128,8 @@ hr {
 #all-cameras,
 #all-languages,
 #all-interests{
-  margin-left: 100px;
+  margin-left: 0 auto;
+  margin-left: 85px;
 }
 
 

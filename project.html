@@ -46,7 +46,7 @@
         </h3>
 
         <a href="https://ileiye.herokuapp.com/">
-            <img class="img-responsive" src="images/IleIye Pic 1.png" alt="">
+            <img class="img-responsive" src="images/IleIye Pic 1.png">
         </a>
         <p class="white-text text-center">Ile Iye is an app that provides any user with the value of their real estate.</p>
       </div>
@@ -86,5 +86,23 @@
     <script src="js/jquery-3.2.1.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.btn.verticalButton').draggable({
+        cancel: false,
+        connectToSortable: '.container',
+        containment: 'document',
+        helper: 'clone'
+    });
+    $("#droppable").droppable({
+        drop: function (event, ui) {
+            $(ui.draggable).clone().appendTo(this);
+            $(ui.draggable).remove();
+        }
+    });
+});
+
+
+</script>
   </body>
 </html>
