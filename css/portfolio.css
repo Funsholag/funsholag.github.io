@@ -111,12 +111,15 @@ hr {
   max-width: 800px;
   border-color: blue;
 }
-
+.container .dropdown-menu{
+  cursor: alias;
+}
 .box {
   margin-bottom: 200px;
   padding: 30px 15px;
   background: #fff;
   background: rgba(255,255,255,0.9);
+  cursor: pointer;
 }
 
 .dropdown-menu a{
