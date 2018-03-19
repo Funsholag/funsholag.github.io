@@ -284,8 +284,24 @@ footer p {
 .row{
   min-height: 100%;
   position: relative;
-  /*margin-right: -15px;
-  margin-left: -15px;*/
+}
+
+footer {
+  background: #fff;
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  background: rgba(255,255,255,0.9);
+  bottom: 0;
+  position: absolute;
+}
+/*.footer1{
+  bottom: 0;
+  margin-top: 315px;
+}*/
+
+footer p {
+  margin: 0 auto;
 }
 /*.col-lg-10 {
   width: 100%;
@@ -360,6 +376,28 @@ cursor: inherit;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+  }
+  .row{
+    min-height: 100%;
+    position: relative;
+  }
+
+  footer {
+    background: #fff;
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    background: rgba(255,255,255,0.9);
+    bottom: 0;
+    position: absolute;
+  }
+  /*.footer1{
+    bottom: 0;
+    margin-top: 315px;
+  }*/
+
+  footer p {
+    margin: 0 auto;
   }
   .box{
     padding-right: 15px;
