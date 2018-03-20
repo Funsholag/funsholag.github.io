@@ -172,13 +172,13 @@ hr {
 }
 
 footer {
-  background: #fff;
+  background-color: #fff;
   /*height: auto;
   width: auto;*/
   width: 100% !important;
   height: 40px;
   min-width: 100%;
-  background: rgba(255,255,255,0.9);
+  /*background: rgba(255,255,255,0.9);*/
   bottom: 0;
   position: absolute;
 }
@@ -289,13 +289,14 @@ footer p {
 }
 
 footer {
-  background: #fff;
-  /*height: auto;
-  width: auto;*/
+  background-color: #fff;
+  /*height: auto;*/
+  /*width: auto;*/
   width: 100% !important;
   height: 40px;
   min-width: 100%;
-  background: rgba(255,255,255,0.9);
+  /*min-height: 100%;*/
+  /*background: rgba(255,255,255,0.9);*/
   bottom: 0;
   position: absolute;
 }
@@ -393,7 +394,7 @@ cursor: inherit;
     width: 100% !important;
     height: 40px;
     min-width: 100%;
-    background: rgba(255,255,255,0.9);
+    /*background: rgba(255,255,255,0.9);*/
     bottom: 0;
     position: absolute;
   }
