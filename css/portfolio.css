@@ -173,14 +173,14 @@ hr {
 
 footer {
   background-color: #fff;
-  /*height: auto;
-  width: auto;*/
+  /*height: auto;*/
+  /*width: auto;*/
   width: 100% !important;
-  height: 40px;
+  /*height: 40px;*/
   min-width: 100%;
   /*background: rgba(255,255,255,0.9);*/
   bottom: 0;
-  position: absolute;
+  /*position: absolute;*/
 }
 /*.footer1{
   bottom: 0;
@@ -293,12 +293,12 @@ footer {
   /*height: auto;*/
   /*width: auto;*/
   width: 100% !important;
-  height: 40px;
+  /*height: 40px;*/
   min-width: 100%;
   /*min-height: 100%;*/
   /*background: rgba(255,255,255,0.9);*/
   bottom: 0;
-  position: absolute;
+  /*position: absolute;*/
 }
 /*.footer1{
   bottom: 0;
@@ -392,16 +392,16 @@ cursor: inherit;
     /*height: auto;
     width: auto;*/
     width: 100% !important;
-    height: 40px;
+    /*height: 40px;*/
     min-width: 100%;
     /*background: rgba(255,255,255,0.9);*/
     bottom: 0;
-    position: absolute;
+    /*position: absolute;*/
   }
-  /*.footer1{
+  .footer1{
     bottom: 0;
     margin-top: 315px;
-  }*/
+  }
 
   footer p {
     margin: 0 auto;
